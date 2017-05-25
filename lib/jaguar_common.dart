@@ -6,6 +6,4 @@
 /// More dartdocs go here.
 library jaguar_common;
 
-export 'src/jaguar_common_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/user_model.dart';

@@ -41,3 +41,17 @@ class UserUsername implements UserBase {
 
   String get authorizationId => id;
 }
+
+/// UserModel that uses username and email as authenticationId and unique record
+/// id as authorizationId
+class UserUsernameEmail implements UserBase {
+  String id;
+
+  String username;
+
+  String email;
+
+  String password;
+
+  String get authorizationId => id;
+}

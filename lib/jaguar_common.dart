@@ -6,4 +6,5 @@
 /// More dartdocs go here.
 library jaguar_common;
 
+export 'src/idied.dart';
 export 'src/user_model.dart';
